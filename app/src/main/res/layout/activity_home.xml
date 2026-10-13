@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background">
+
+    <!-- Top App Bar & Navigation Chips -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/primary"
+        android:paddingTop="14dp"
+        android:paddingBottom="14dp"
+        android:paddingHorizontal="16dp">
+
+        <TextView
+            android:id="@+id/tvGreeting"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hi there, find your stay"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:scrollbars="none">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tvNavDashboard"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bg_chip"
+                    android:paddingHorizontal="14dp"
+                    android:paddingVertical="6dp"
+                    android:layout_marginEnd="8dp"
+                    android:text="Dashboard"
+                    android:textColor="@color/white" />
+
+                <TextView
+                    android:id="@+id/tvNavMap"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bg_chip"
+                    android:paddingHorizontal="14dp"
+                    android:paddingVertical="6dp"
+                    android:layout_marginEnd="8dp"
+                    android:text="Map"
+                    android:textColor="@color/white" />
+
+                <TextView
+                    android:id="@+id/tvNavSaved"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bg_chip"
+                    android:paddingHorizontal="14dp"
+                    android:paddingVertical="6dp"
+                    android:layout_marginEnd="8dp"
+                    android:text="Saved"
+                    android:textColor="@color/white" />
+
+                <TextView
+                    android:id="@+id/tvNavBookings"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bg_chip"
+                    android:paddingHorizontal="14dp"
+                    android:paddingVertical="6dp"
+                    android:layout_marginEnd="8dp"
+                    android:text="My Bookings"
+                    android:textColor="@color/white" />
+
+                <TextView
+                    android:id="@+id/tvNavAdmin"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bg_chip"
+                    android:paddingHorizontal="14dp"
+                    android:paddingVertical="6dp"
+                    android:layout_marginEnd="8dp"
+                    android:text="Owner Dashboard"
+                    android:textColor="@color/white"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/tvNavLogout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bg_chip"
+                    android:paddingHorizontal="14dp"
+                    android:paddingVertical="6dp"
+                    android:text="Logout"
+                    android:textColor="@color/white" />
+            </LinearLayout>
+        </HorizontalScrollView>
+    </LinearLayout>
+
+    <!-- Dynamic Search Card -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginHorizontal="14dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/bg_search_card"
+        android:gravity="center_vertical"
+        android:paddingHorizontal="12dp"
+        android:paddingVertical="2dp"
+        android:elevation="2dp">
+
+        <ImageView
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:src="@drawable/ic_search"
+            android:contentDescription="Search"
+            app:tint="@color/primary" />
+
+        <EditText
+            android:id="@+id/etSearchCity"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:background="@null"
+            android:hint="Search city (e.g. Ahmedabad, Surat)"
+            android:inputType="textCapWords"
+            android:textColor="@color/text_primary"
+            android:textColorHint="@color/text_secondary"
+            android:textSize="15sp"
+            android:paddingHorizontal="10dp"
+            android:imeOptions="actionDone" />
+
+        <ImageView
+            android:id="@+id/btnClearSearch"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/ic_clear"
+            android:contentDescription="Clear search"
+            android:padding="3dp"
+            android:visibility="gone"
+            android:background="?attr/selectableItemBackgroundBorderless" />
+    </LinearLayout>
+
+    <!-- Quick City Filter Chips (Dynamic Selection) -->
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:paddingStart="14dp"
+        android:paddingEnd="14dp"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:id="@+id/layoutCityChips"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:id="@+id/chipCityAll"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_city_chip_selected"
+                android:text="All Cities"
+                android:textColor="@color/white"
+                android:textSize="13sp"
+                android:textStyle="bold"
+                android:paddingHorizontal="14dp"
+                android:paddingVertical="7dp"
+                android:layout_marginEnd="8dp" />
+
+            <TextView
+                android:id="@+id/chipCityAhmedabad"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_city_chip_unselected"
+                android:text="Ahmedabad"
+                android:textColor="@color/text_primary"
+                android:textSize="13sp"
+                android:paddingHorizontal="14dp"
+                android:paddingVertical="7dp"
+                android:layout_marginEnd="8dp" />
+
+            <TextView
+                android:id="@+id/chipCitySurat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_city_chip_unselected"
+                android:text="Surat"
+                android:textColor="@color/text_primary"
+                android:textSize="13sp"
+                android:paddingHorizontal="14dp"
+                android:paddingVertical="7dp"
+                android:layout_marginEnd="8dp" />
+
+            <TextView
+                android:id="@+id/chipCityGandhinagar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_city_chip_unselected"
+                android:text="Gandhinagar"
+                android:textColor="@color/text_primary"
+                android:textSize="13sp"
+                android:paddingHorizontal="14dp"
+                android:paddingVertical="7dp"
+                android:layout_marginEnd="8dp" />
+
+            <TextView
+                android:id="@+id/chipCityVadodara"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_city_chip_unselected"
+                android:text="Vadodara"
+                android:textColor="@color/text_primary"
+                android:textSize="13sp"
+                android:paddingHorizontal="14dp"
+                android:paddingVertical="7dp"
+                android:layout_marginEnd="8dp" />
+
+            <TextView
+                android:id="@+id/chipCityRajkot"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_city_chip_unselected"
+                android:text="Rajkot"
+                android:textColor="@color/text_primary"
+                android:textSize="13sp"
+                android:paddingHorizontal="14dp"
+                android:paddingVertical="7dp"
+                android:layout_marginEnd="8dp" />
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <!-- Filter & Sort Bar (Clean, without Min Rating) -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingHorizontal="14dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center_vertical">
+
+        <!-- Room Filter Dropdown -->
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="38dp"
+            android:layout_weight="1"
+            android:background="@drawable/bg_filter_item"
+            android:paddingHorizontal="6dp">
+
+            <Spinner
+                android:id="@+id/spinnerRoomFilter"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:overlapAnchor="false" />
+        </FrameLayout>
+
+        <!-- Sort Dropdown -->
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="38dp"
+            android:layout_weight="1.2"
+            android:layout_marginStart="8dp"
+            android:background="@drawable/bg_filter_item"
+            android:paddingHorizontal="6dp">
+
+            <Spinner
+                android:id="@+id/spinnerSort"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:overlapAnchor="false" />
+        </FrameLayout>
+
+        <!-- Max Price Input -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="38dp"
+            android:layout_marginStart="8dp"
+            android:background="@drawable/bg_filter_item"
+            android:paddingHorizontal="8dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="₹ Max:"
+                android:textSize="12sp"
+                android:textColor="@color/text_secondary" />
+
+            <EditText
+                android:id="@+id/etMaxPrice"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:hint="Any"
+                android:inputType="number"
+                android:textSize="13sp"
+                android:textColor="@color/text_primary"
+                android:textColorHint="@color/text_secondary"
+                android:paddingStart="4dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- Results Status Badge -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingHorizontal="16dp"
+        android:paddingTop="12dp"
+        android:paddingBottom="6dp"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/tvResultsLabel"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Available hotels"
+            android:textColor="@color/text_primary"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvResetFilters"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Reset all"
+            android:textColor="@color/primary"
+            android:textSize="13sp"
+            android:textStyle="bold"
+            android:visibility="gone"
+            android:background="?attr/selectableItemBackground"
+            android:padding="4dp" />
+    </LinearLayout>
+
+    <!-- FrameLayout containing Hotels List and Dynamic Empty State -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvHotels"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingHorizontal="14dp"
+            android:paddingTop="4dp"
+            android:paddingBottom="16dp"
+            android:clipToPadding="false" />
+
+        <!-- Dynamic Empty State View -->
+        <LinearLayout
+            android:id="@+id/layoutEmptyState"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:padding="24dp"
+            android:visibility="gone">
+
+            <ImageView
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:src="@drawable/ic_hotel_empty"
+                android:contentDescription="No hotels"
+                app:tint="#B0BEC5" />
+
+            <TextView
+                android:id="@+id/tvEmptyTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="No hotels found"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/text_primary"
+                android:layout_marginTop="12dp" />
+
+            <TextView
+                android:id="@+id/tvEmptyMessage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="No hotels match your search. Try another city."
+                android:textSize="14sp"
+                android:textColor="@color/text_secondary"
+                android:gravity="center"
+                android:layout_marginTop="6dp" />
+
+            <Button
+                android:id="@+id/btnEmptyReset"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Show all hotels"
+                android:backgroundTint="@color/primary"
+                android:textColor="@color/white"
+                android:layout_marginTop="16dp" />
+        </LinearLayout>
+    </FrameLayout>
+
+</LinearLayout>

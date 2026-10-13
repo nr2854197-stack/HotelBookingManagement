@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/tvName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="@color/text_primary" />
+
+        <TextView
+            android:id="@+id/tvAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/text_secondary"
+            android:layout_marginTop="4dp" />
+
+        <TextView
+            android:id="@+id/tvRating"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/primary"
+            android:textStyle="bold"
+            android:layout_marginTop="8dp" />
+
+        <org.osmdroid.views.MapView
+            android:id="@+id/mapView"
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:layout_marginTop="16dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="8dp">
+
+            <Button
+                android:id="@+id/btnFavorite"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="Save"
+                android:backgroundTint="@color/accent"
+                android:textColor="@color/white"
+                android:layout_marginEnd="6dp" />
+
+            <Button
+                android:id="@+id/btnDirections"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="Directions"
+                android:backgroundTint="@color/primary_dark"
+                android:textColor="@color/white"
+                android:layout_marginStart="6dp" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Facilities"
+            android:textStyle="bold"
+            android:textColor="@color/text_primary"
+            android:layout_marginTop="20dp" />
+
+        <TextView
+            android:id="@+id/tvFacilities"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/text_secondary"
+            android:layout_marginTop="4dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Rooms &amp; live availability"
+            android:textStyle="bold"
+            android:textColor="@color/text_primary"
+            android:layout_marginTop="20dp" />
+
+        <TextView
+            android:id="@+id/tvRoomTypes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/text_secondary"
+            android:layout_marginTop="4dp" />
+
+        <Button
+            android:id="@+id/btnBookNow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Book Now"
+            android:backgroundTint="@color/primary"
+            android:textColor="@color/white"
+            android:layout_marginTop="20dp" />
+
+        <TextView
+            android:id="@+id/tvReviewsHeader"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Guest reviews"
+            android:textStyle="bold"
+            android:textColor="@color/text_primary"
+            android:layout_marginTop="28dp" />
+
+        <LinearLayout
+            android:id="@+id/reviewsContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Rate your stay"
+            android:textStyle="bold"
+            android:textColor="@color/text_primary"
+            android:layout_marginTop="16dp" />
+
+        <RatingBar
+            android:id="@+id/ratingBarInput"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:numStars="5"
+            android:stepSize="1"
+            android:rating="0" />
+
+        <EditText
+            android:id="@+id/etReviewComment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Write a short review (optional)"
+            android:inputType="textMultiLine"
+            android:textColor="@color/text_primary"
+            android:textColorHint="@color/text_secondary"
+            android:padding="10dp"
+            android:background="@color/card_background" />
+
+        <Button
+            android:id="@+id/btnSubmitReview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Submit review"
+            android:backgroundTint="@color/primary"
+            android:textColor="@color/white"
+            android:layout_marginTop="8dp" />
+
+    </LinearLayout>
+</ScrollView>

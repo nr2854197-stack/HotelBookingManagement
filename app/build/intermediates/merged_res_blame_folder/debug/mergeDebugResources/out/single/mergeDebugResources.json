@@ -1,0 +1,118 @@
+[
+    {
+        "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.4\\com.example.hotelbooking.app-debug-36:\\layout_item_hotel.xml.flat",
+        "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.4\\com.example.hotelbooking.app-main-38:\\layout\\item_hotel.xml"
+    },
+    {
+        "merged": "com.example.hotelbooking.app-debug-36:/drawable_bg_city_chip_selected.xml.flat",
+        "source": "com.example.hotelbooking.app-main-38:/drawable/bg_city_chip_selected.xml"
+    },
+    {
+        "merged": "com.example.hotelbooking.app-debug-36:/drawable_bg_filter_item.xml.flat",
+        "source": "com.example.hotelbooking.app-main-38:/drawable/bg_filter_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.4\\com.example.hotelbooking.app-debug-36:\\layout_activity_map.xml.flat",
+        "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.4\\com.example.hotelbooking.app-main-38:\\layout\\activity_map.xml"
+    },
+    {
+        "merged": "com.example.hotelbooking.app-debug-36:/drawable_bg_search_card.xml.flat",
+        "source": "com.example.hotelbooking.app-main-38:/drawable/bg_search_card.xml"
+    },
+    {
+        "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.4\\com.example.hotelbooking.app-debug-36:\\layout_activity_my_bookings.xml.flat",
+        "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.4\\com.example.hotelbooking.app-main-38:\\layout\\activity_my_bookings.xml"
+    },
+    {
+        "merged": "com.example.hotelbooking.app-debug-36:/layout_item_hotel.xml.flat",
+        "source": "com.example.hotelbooking.app-main-38:/layout/item_hotel.xml"
+    },
+    {
+        "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.4\\com.example.hotelbooking.app-debug-36:\\layout_activity_booking.xml.flat",
+        "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.4\\com.example.hotelbooking.app-main-38:\\layout\\activity_booking.xml"
+    },
+    {
+        "merged": "com.example.hotelbooking.app-debug-36:/drawable_ic_search.xml.flat",
+        "source": "com.example.hotelbooking.app-main-38:/drawable/ic_search.xml"
+    },
+    {
+        "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.4\\com.example.hotelbooking.app-debug-36:\\layout_activity_dashboard.xml.flat",
+        "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.4\\com.example.hotelbooking.app-main-38:\\layout\\activity_dashboard.xml"
+    },
+    {
+        "merged": "com.example.hotelbooking.app-debug-36:/drawable_bg_city_chip_unselected.xml.flat",
+        "source": "com.example.hotelbooking.app-main-38:/drawable/bg_city_chip_unselected.xml"
+    },
+    {
+        "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.4\\com.example.hotelbooking.app-debug-36:\\layout_activity_favorites.xml.flat",
+        "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.4\\com.example.hotelbooking.app-main-38:\\layout\\activity_favorites.xml"
+    },
+    {
+        "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.4\\com.example.hotelbooking.app-debug-36:\\drawable_bg_chip.xml.flat",
+        "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.4\\com.example.hotelbooking.app-main-38:\\drawable\\bg_chip.xml"
+    },
+    {
+        "merged": "com.example.hotelbooking.app-debug-36:/drawable_ic_clear.xml.flat",
+        "source": "com.example.hotelbooking.app-main-38:/drawable/ic_clear.xml"
+    },
+    {
+        "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.4\\com.example.hotelbooking.app-debug-36:\\layout_dialog_add_hotel.xml.flat",
+        "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.4\\com.example.hotelbooking.app-main-38:\\layout\\dialog_add_hotel.xml"
+    },
+    {
+        "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.4\\com.example.hotelbooking.app-debug-36:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.4\\com.example.hotelbooking.app-main-38:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.4\\com.example.hotelbooking.app-debug-36:\\layout_activity_admin.xml.flat",
+        "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.4\\com.example.hotelbooking.app-main-38:\\layout\\activity_admin.xml"
+    },
+    {
+        "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.4\\com.example.hotelbooking.app-debug-36:\\layout_activity_home.xml.flat",
+        "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.4\\com.example.hotelbooking.app-main-38:\\layout\\activity_home.xml"
+    },
+    {
+        "merged": "com.example.hotelbooking.app-debug-36:/drawable_ic_hotel_empty.xml.flat",
+        "source": "com.example.hotelbooking.app-main-38:/drawable/ic_hotel_empty.xml"
+    },
+    {
+        "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.4\\com.example.hotelbooking.app-debug-36:\\layout_activity_login.xml.flat",
+        "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.4\\com.example.hotelbooking.app-main-38:\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.4\\com.example.hotelbooking.app-debug-36:\\layout_item_booking.xml.flat",
+        "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.4\\com.example.hotelbooking.app-main-38:\\layout\\item_booking.xml"
+    },
+    {
+        "merged": "com.example.hotelbooking.app-debug-36:/drawable_ic_location.xml.flat",
+        "source": "com.example.hotelbooking.app-main-38:/drawable/ic_location.xml"
+    },
+    {
+        "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.4\\com.example.hotelbooking.app-debug-36:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.4\\com.example.hotelbooking.app-main-38:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.example.hotelbooking.app-debug-36:/layout_activity_home.xml.flat",
+        "source": "com.example.hotelbooking.app-main-38:/layout/activity_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.4\\com.example.hotelbooking.app-debug-36:\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.4\\com.example.hotelbooking.app-main-38:\\drawable\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.4\\com.example.hotelbooking.app-debug-36:\\layout_item_stat.xml.flat",
+        "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.4\\com.example.hotelbooking.app-main-38:\\layout\\item_stat.xml"
+    },
+    {
+        "merged": "com.example.hotelbooking.app-debug-36:/drawable_bg_rating_pill.xml.flat",
+        "source": "com.example.hotelbooking.app-main-38:/drawable/bg_rating_pill.xml"
+    },
+    {
+        "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.4\\com.example.hotelbooking.app-debug-36:\\layout_activity_hotel_details.xml.flat",
+        "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.4\\com.example.hotelbooking.app-main-38:\\layout\\activity_hotel_details.xml"
+    },
+    {
+        "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.4\\com.example.hotelbooking.app-debug-36:\\layout_item_admin_hotel.xml.flat",
+        "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.4\\com.example.hotelbooking.app-main-38:\\layout\\item_admin_hotel.xml"
+    }
+]

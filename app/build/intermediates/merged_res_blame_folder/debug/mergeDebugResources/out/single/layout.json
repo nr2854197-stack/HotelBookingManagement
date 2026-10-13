@@ -1,0 +1,66 @@
+[
+    {
+        "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.4\\com.example.hotelbooking.app-mergeDebugResources-35:\\layout\\activity_my_bookings.xml",
+        "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.4\\com.example.hotelbooking.app-main-38:\\layout\\activity_my_bookings.xml"
+    },
+    {
+        "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.4\\com.example.hotelbooking.app-mergeDebugResources-35:\\layout\\activity_map.xml",
+        "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.4\\com.example.hotelbooking.app-main-38:\\layout\\activity_map.xml"
+    },
+    {
+        "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.4\\com.example.hotelbooking.app-mergeDebugResources-35:\\layout\\item_admin_hotel.xml",
+        "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.4\\com.example.hotelbooking.app-main-38:\\layout\\item_admin_hotel.xml"
+    },
+    {
+        "merged": "com.example.hotelbooking.app-mergeDebugResources-35:/layout/item_hotel.xml",
+        "source": "com.example.hotelbooking.app-main-38:/layout/item_hotel.xml"
+    },
+    {
+        "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.4\\com.example.hotelbooking.app-mergeDebugResources-35:\\layout\\activity_favorites.xml",
+        "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.4\\com.example.hotelbooking.app-main-38:\\layout\\activity_favorites.xml"
+    },
+    {
+        "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.4\\com.example.hotelbooking.app-mergeDebugResources-35:\\layout\\activity_hotel_details.xml",
+        "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.4\\com.example.hotelbooking.app-main-38:\\layout\\activity_hotel_details.xml"
+    },
+    {
+        "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.4\\com.example.hotelbooking.app-mergeDebugResources-35:\\layout\\activity_admin.xml",
+        "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.4\\com.example.hotelbooking.app-main-38:\\layout\\activity_admin.xml"
+    },
+    {
+        "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.4\\com.example.hotelbooking.app-mergeDebugResources-35:\\layout\\activity_booking.xml",
+        "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.4\\com.example.hotelbooking.app-main-38:\\layout\\activity_booking.xml"
+    },
+    {
+        "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.4\\com.example.hotelbooking.app-mergeDebugResources-35:\\layout\\activity_home.xml",
+        "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.4\\com.example.hotelbooking.app-main-38:\\layout\\activity_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.4\\com.example.hotelbooking.app-mergeDebugResources-35:\\layout\\item_hotel.xml",
+        "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.4\\com.example.hotelbooking.app-main-38:\\layout\\item_hotel.xml"
+    },
+    {
+        "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.4\\com.example.hotelbooking.app-mergeDebugResources-35:\\layout\\activity_dashboard.xml",
+        "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.4\\com.example.hotelbooking.app-main-38:\\layout\\activity_dashboard.xml"
+    },
+    {
+        "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.4\\com.example.hotelbooking.app-mergeDebugResources-35:\\layout\\item_booking.xml",
+        "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.4\\com.example.hotelbooking.app-main-38:\\layout\\item_booking.xml"
+    },
+    {
+        "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.4\\com.example.hotelbooking.app-mergeDebugResources-35:\\layout\\activity_login.xml",
+        "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.4\\com.example.hotelbooking.app-main-38:\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "com.example.hotelbooking.app-mergeDebugResources-35:/layout/activity_home.xml",
+        "source": "com.example.hotelbooking.app-main-38:/layout/activity_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.4\\com.example.hotelbooking.app-mergeDebugResources-35:\\layout\\item_stat.xml",
+        "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.4\\com.example.hotelbooking.app-main-38:\\layout\\item_stat.xml"
+    },
+    {
+        "merged": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.4\\com.example.hotelbooking.app-mergeDebugResources-35:\\layout\\dialog_add_hotel.xml",
+        "source": "C:\\Users\\LENOVO\\.gradle\\daemon\\8.4\\com.example.hotelbooking.app-main-38:\\layout\\dialog_add_hotel.xml"
+    }
+]

@@ -1,0 +1,223 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.hotelbooking"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="34" />
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\LENOVO\Downloads\LocalStay-HotelBookingApp\HotelBookingApp\app\src\main\AndroidManifest.xml:4:5-67
+11-->C:\Users\LENOVO\Downloads\LocalStay-HotelBookingApp\HotelBookingApp\app\src\main\AndroidManifest.xml:4:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->C:\Users\LENOVO\Downloads\LocalStay-HotelBookingApp\HotelBookingApp\app\src\main\AndroidManifest.xml:5:5-79
+12-->C:\Users\LENOVO\Downloads\LocalStay-HotelBookingApp\HotelBookingApp\app\src\main\AndroidManifest.xml:5:22-76
+13
+14    <permission
+14-->[androidx.core:core:1.12.0] C:\Users\LENOVO\.gradle\caches\transforms-3\3e998e169696e9da2df8e686400da5ea\transformed\core-1.12.0\AndroidManifest.xml:22:5-24:47
+15        android:name="com.example.hotelbooking.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+15-->[androidx.core:core:1.12.0] C:\Users\LENOVO\.gradle\caches\transforms-3\3e998e169696e9da2df8e686400da5ea\transformed\core-1.12.0\AndroidManifest.xml:23:9-81
+16        android:protectionLevel="signature" />
+16-->[androidx.core:core:1.12.0] C:\Users\LENOVO\.gradle\caches\transforms-3\3e998e169696e9da2df8e686400da5ea\transformed\core-1.12.0\AndroidManifest.xml:24:9-44
+17
+18    <uses-permission android:name="com.example.hotelbooking.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+18-->[androidx.core:core:1.12.0] C:\Users\LENOVO\.gradle\caches\transforms-3\3e998e169696e9da2df8e686400da5ea\transformed\core-1.12.0\AndroidManifest.xml:26:5-97
+18-->[androidx.core:core:1.12.0] C:\Users\LENOVO\.gradle\caches\transforms-3\3e998e169696e9da2df8e686400da5ea\transformed\core-1.12.0\AndroidManifest.xml:26:22-94
+19
+20    <supports-screens
+20-->[org.osmdroid:osmdroid-android:6.1.18] C:\Users\LENOVO\.gradle\caches\transforms-3\1ba9403df81916695e7aeebd7c04e171\transformed\osmdroid-android-6.1.18\AndroidManifest.xml:9:5-12:40
+21        android:anyDensity="true"
+21-->[org.osmdroid:osmdroid-android:6.1.18] C:\Users\LENOVO\.gradle\caches\transforms-3\1ba9403df81916695e7aeebd7c04e171\transformed\osmdroid-android-6.1.18\AndroidManifest.xml:10:9-34
+22        android:largeScreens="true"
+22-->[org.osmdroid:osmdroid-android:6.1.18] C:\Users\LENOVO\.gradle\caches\transforms-3\1ba9403df81916695e7aeebd7c04e171\transformed\osmdroid-android-6.1.18\AndroidManifest.xml:11:9-36
+23        android:normalScreens="true" />
+23-->[org.osmdroid:osmdroid-android:6.1.18] C:\Users\LENOVO\.gradle\caches\transforms-3\1ba9403df81916695e7aeebd7c04e171\transformed\osmdroid-android-6.1.18\AndroidManifest.xml:12:9-37
+24
+25    <uses-feature
+25-->[org.osmdroid:osmdroid-android:6.1.18] C:\Users\LENOVO\.gradle\caches\transforms-3\1ba9403df81916695e7aeebd7c04e171\transformed\osmdroid-android-6.1.18\AndroidManifest.xml:14:5-16:36
+26        android:name="android.hardware.location.network"
+26-->[org.osmdroid:osmdroid-android:6.1.18] C:\Users\LENOVO\.gradle\caches\transforms-3\1ba9403df81916695e7aeebd7c04e171\transformed\osmdroid-android-6.1.18\AndroidManifest.xml:15:9-57
+27        android:required="false" />
+27-->[org.osmdroid:osmdroid-android:6.1.18] C:\Users\LENOVO\.gradle\caches\transforms-3\1ba9403df81916695e7aeebd7c04e171\transformed\osmdroid-android-6.1.18\AndroidManifest.xml:16:9-33
+28    <uses-feature
+28-->[org.osmdroid:osmdroid-android:6.1.18] C:\Users\LENOVO\.gradle\caches\transforms-3\1ba9403df81916695e7aeebd7c04e171\transformed\osmdroid-android-6.1.18\AndroidManifest.xml:17:5-19:36
+29        android:name="android.hardware.location.gps"
+29-->[org.osmdroid:osmdroid-android:6.1.18] C:\Users\LENOVO\.gradle\caches\transforms-3\1ba9403df81916695e7aeebd7c04e171\transformed\osmdroid-android-6.1.18\AndroidManifest.xml:18:9-53
+30        android:required="false" />
+30-->[org.osmdroid:osmdroid-android:6.1.18] C:\Users\LENOVO\.gradle\caches\transforms-3\1ba9403df81916695e7aeebd7c04e171\transformed\osmdroid-android-6.1.18\AndroidManifest.xml:19:9-33
+31    <uses-feature
+31-->[org.osmdroid:osmdroid-android:6.1.18] C:\Users\LENOVO\.gradle\caches\transforms-3\1ba9403df81916695e7aeebd7c04e171\transformed\osmdroid-android-6.1.18\AndroidManifest.xml:20:5-22:36
+32        android:name="android.hardware.telephony"
+32-->[org.osmdroid:osmdroid-android:6.1.18] C:\Users\LENOVO\.gradle\caches\transforms-3\1ba9403df81916695e7aeebd7c04e171\transformed\osmdroid-android-6.1.18\AndroidManifest.xml:21:9-50
+33        android:required="false" />
+33-->[org.osmdroid:osmdroid-android:6.1.18] C:\Users\LENOVO\.gradle\caches\transforms-3\1ba9403df81916695e7aeebd7c04e171\transformed\osmdroid-android-6.1.18\AndroidManifest.xml:22:9-33
+34    <uses-feature
+34-->[org.osmdroid:osmdroid-android:6.1.18] C:\Users\LENOVO\.gradle\caches\transforms-3\1ba9403df81916695e7aeebd7c04e171\transformed\osmdroid-android-6.1.18\AndroidManifest.xml:23:5-25:36
+35        android:name="android.hardware.wifi"
+35-->[org.osmdroid:osmdroid-android:6.1.18] C:\Users\LENOVO\.gradle\caches\transforms-3\1ba9403df81916695e7aeebd7c04e171\transformed\osmdroid-android-6.1.18\AndroidManifest.xml:24:9-45
+36        android:required="false" />
+36-->[org.osmdroid:osmdroid-android:6.1.18] C:\Users\LENOVO\.gradle\caches\transforms-3\1ba9403df81916695e7aeebd7c04e171\transformed\osmdroid-android-6.1.18\AndroidManifest.xml:25:9-33
+37
+38    <application
+38-->C:\Users\LENOVO\Downloads\LocalStay-HotelBookingApp\HotelBookingApp\app\src\main\AndroidManifest.xml:7:5-31:19
+39        android:allowBackup="true"
+39-->C:\Users\LENOVO\Downloads\LocalStay-HotelBookingApp\HotelBookingApp\app\src\main\AndroidManifest.xml:8:9-35
+40        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+40-->[androidx.core:core:1.12.0] C:\Users\LENOVO\.gradle\caches\transforms-3\3e998e169696e9da2df8e686400da5ea\transformed\core-1.12.0\AndroidManifest.xml:28:18-86
+41        android:debuggable="true"
+42        android:extractNativeLibs="true"
+43        android:icon="@mipmap/ic_launcher"
+43-->C:\Users\LENOVO\Downloads\LocalStay-HotelBookingApp\HotelBookingApp\app\src\main\AndroidManifest.xml:9:9-43
+44        android:label="@string/app_name"
+44-->C:\Users\LENOVO\Downloads\LocalStay-HotelBookingApp\HotelBookingApp\app\src\main\AndroidManifest.xml:10:9-41
+45        android:roundIcon="@mipmap/ic_launcher_round"
+45-->C:\Users\LENOVO\Downloads\LocalStay-HotelBookingApp\HotelBookingApp\app\src\main\AndroidManifest.xml:11:9-54
+46        android:supportsRtl="true"
+46-->C:\Users\LENOVO\Downloads\LocalStay-HotelBookingApp\HotelBookingApp\app\src\main\AndroidManifest.xml:12:9-35
+47        android:theme="@style/Theme.LocalStay" >
+47-->C:\Users\LENOVO\Downloads\LocalStay-HotelBookingApp\HotelBookingApp\app\src\main\AndroidManifest.xml:13:9-47
+48        <activity
+48-->C:\Users\LENOVO\Downloads\LocalStay-HotelBookingApp\HotelBookingApp\app\src\main\AndroidManifest.xml:15:9-20:20
+49            android:name="com.example.hotelbooking.LoginActivity"
+49-->C:\Users\LENOVO\Downloads\LocalStay-HotelBookingApp\HotelBookingApp\app\src\main\AndroidManifest.xml:15:19-48
+50            android:exported="true" >
+50-->C:\Users\LENOVO\Downloads\LocalStay-HotelBookingApp\HotelBookingApp\app\src\main\AndroidManifest.xml:15:49-72
+51            <intent-filter>
+51-->C:\Users\LENOVO\Downloads\LocalStay-HotelBookingApp\HotelBookingApp\app\src\main\AndroidManifest.xml:16:13-19:29
+52                <action android:name="android.intent.action.MAIN" />
+52-->C:\Users\LENOVO\Downloads\LocalStay-HotelBookingApp\HotelBookingApp\app\src\main\AndroidManifest.xml:17:17-69
+52-->C:\Users\LENOVO\Downloads\LocalStay-HotelBookingApp\HotelBookingApp\app\src\main\AndroidManifest.xml:17:25-66
+53
+54                <category android:name="android.intent.category.LAUNCHER" />
+54-->C:\Users\LENOVO\Downloads\LocalStay-HotelBookingApp\HotelBookingApp\app\src\main\AndroidManifest.xml:18:17-77
+54-->C:\Users\LENOVO\Downloads\LocalStay-HotelBookingApp\HotelBookingApp\app\src\main\AndroidManifest.xml:18:27-74
+55            </intent-filter>
+56        </activity>
+57        <activity
+57-->C:\Users\LENOVO\Downloads\LocalStay-HotelBookingApp\HotelBookingApp\app\src\main\AndroidManifest.xml:22:9-75
+58            android:name="com.example.hotelbooking.HomeActivity"
+58-->C:\Users\LENOVO\Downloads\LocalStay-HotelBookingApp\HotelBookingApp\app\src\main\AndroidManifest.xml:22:19-47
+59            android:exported="false" />
+59-->C:\Users\LENOVO\Downloads\LocalStay-HotelBookingApp\HotelBookingApp\app\src\main\AndroidManifest.xml:22:48-72
+60        <activity
+60-->C:\Users\LENOVO\Downloads\LocalStay-HotelBookingApp\HotelBookingApp\app\src\main\AndroidManifest.xml:23:9-83
+61            android:name="com.example.hotelbooking.HotelDetailsActivity"
+61-->C:\Users\LENOVO\Downloads\LocalStay-HotelBookingApp\HotelBookingApp\app\src\main\AndroidManifest.xml:23:19-55
+62            android:exported="false" />
+62-->C:\Users\LENOVO\Downloads\LocalStay-HotelBookingApp\HotelBookingApp\app\src\main\AndroidManifest.xml:23:56-80
+63        <activity
+63-->C:\Users\LENOVO\Downloads\LocalStay-HotelBookingApp\HotelBookingApp\app\src\main\AndroidManifest.xml:24:9-78
+64            android:name="com.example.hotelbooking.BookingActivity"
+64-->C:\Users\LENOVO\Downloads\LocalStay-HotelBookingApp\HotelBookingApp\app\src\main\AndroidManifest.xml:24:19-50
+65            android:exported="false" />
+65-->C:\Users\LENOVO\Downloads\LocalStay-HotelBookingApp\HotelBookingApp\app\src\main\AndroidManifest.xml:24:51-75
+66        <activity
+66-->C:\Users\LENOVO\Downloads\LocalStay-HotelBookingApp\HotelBookingApp\app\src\main\AndroidManifest.xml:25:9-81
+67            android:name="com.example.hotelbooking.MyBookingsActivity"
+67-->C:\Users\LENOVO\Downloads\LocalStay-HotelBookingApp\HotelBookingApp\app\src\main\AndroidManifest.xml:25:19-53
+68            android:exported="false" />
+68-->C:\Users\LENOVO\Downloads\LocalStay-HotelBookingApp\HotelBookingApp\app\src\main\AndroidManifest.xml:25:54-78
+69        <activity
+69-->C:\Users\LENOVO\Downloads\LocalStay-HotelBookingApp\HotelBookingApp\app\src\main\AndroidManifest.xml:26:9-80
+70            android:name="com.example.hotelbooking.DashboardActivity"
+70-->C:\Users\LENOVO\Downloads\LocalStay-HotelBookingApp\HotelBookingApp\app\src\main\AndroidManifest.xml:26:19-52
+71            android:exported="false" />
+71-->C:\Users\LENOVO\Downloads\LocalStay-HotelBookingApp\HotelBookingApp\app\src\main\AndroidManifest.xml:26:53-77
+72        <activity
+72-->C:\Users\LENOVO\Downloads\LocalStay-HotelBookingApp\HotelBookingApp\app\src\main\AndroidManifest.xml:27:9-80
+73            android:name="com.example.hotelbooking.FavoritesActivity"
+73-->C:\Users\LENOVO\Downloads\LocalStay-HotelBookingApp\HotelBookingApp\app\src\main\AndroidManifest.xml:27:19-52
+74            android:exported="false" />
+74-->C:\Users\LENOVO\Downloads\LocalStay-HotelBookingApp\HotelBookingApp\app\src\main\AndroidManifest.xml:27:53-77
+75        <activity
+75-->C:\Users\LENOVO\Downloads\LocalStay-HotelBookingApp\HotelBookingApp\app\src\main\AndroidManifest.xml:28:9-74
+76            android:name="com.example.hotelbooking.MapActivity"
+76-->C:\Users\LENOVO\Downloads\LocalStay-HotelBookingApp\HotelBookingApp\app\src\main\AndroidManifest.xml:28:19-46
+77            android:exported="false" />
+77-->C:\Users\LENOVO\Downloads\LocalStay-HotelBookingApp\HotelBookingApp\app\src\main\AndroidManifest.xml:28:47-71
+78        <activity
+78-->C:\Users\LENOVO\Downloads\LocalStay-HotelBookingApp\HotelBookingApp\app\src\main\AndroidManifest.xml:29:9-76
+79            android:name="com.example.hotelbooking.AdminActivity"
+79-->C:\Users\LENOVO\Downloads\LocalStay-HotelBookingApp\HotelBookingApp\app\src\main\AndroidManifest.xml:29:19-48
+80            android:exported="false" />
+80-->C:\Users\LENOVO\Downloads\LocalStay-HotelBookingApp\HotelBookingApp\app\src\main\AndroidManifest.xml:29:49-73
+81
+82        <provider
+82-->[androidx.emoji2:emoji2:1.2.0] C:\Users\LENOVO\.gradle\caches\transforms-3\f101b5aa09efe06357e76a0207277e8a\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+83            android:name="androidx.startup.InitializationProvider"
+83-->[androidx.emoji2:emoji2:1.2.0] C:\Users\LENOVO\.gradle\caches\transforms-3\f101b5aa09efe06357e76a0207277e8a\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+84            android:authorities="com.example.hotelbooking.androidx-startup"
+84-->[androidx.emoji2:emoji2:1.2.0] C:\Users\LENOVO\.gradle\caches\transforms-3\f101b5aa09efe06357e76a0207277e8a\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+85            android:exported="false" >
+85-->[androidx.emoji2:emoji2:1.2.0] C:\Users\LENOVO\.gradle\caches\transforms-3\f101b5aa09efe06357e76a0207277e8a\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+86            <meta-data
+86-->[androidx.emoji2:emoji2:1.2.0] C:\Users\LENOVO\.gradle\caches\transforms-3\f101b5aa09efe06357e76a0207277e8a\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+87                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+87-->[androidx.emoji2:emoji2:1.2.0] C:\Users\LENOVO\.gradle\caches\transforms-3\f101b5aa09efe06357e76a0207277e8a\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+88                android:value="androidx.startup" />
+88-->[androidx.emoji2:emoji2:1.2.0] C:\Users\LENOVO\.gradle\caches\transforms-3\f101b5aa09efe06357e76a0207277e8a\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+89            <meta-data
+89-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\LENOVO\.gradle\caches\transforms-3\119faaa543d82b40b4461acf99eff7b2\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:29:13-31:52
+90                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+90-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\LENOVO\.gradle\caches\transforms-3\119faaa543d82b40b4461acf99eff7b2\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:30:17-78
+91                android:value="androidx.startup" />
+91-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\LENOVO\.gradle\caches\transforms-3\119faaa543d82b40b4461acf99eff7b2\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:31:17-49
+92            <meta-data
+92-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\LENOVO\.gradle\caches\transforms-3\6040b010d93caf97c9ee8226bdfb69bd\transformed\profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+93                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+93-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\LENOVO\.gradle\caches\transforms-3\6040b010d93caf97c9ee8226bdfb69bd\transformed\profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+94                android:value="androidx.startup" />
+94-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\LENOVO\.gradle\caches\transforms-3\6040b010d93caf97c9ee8226bdfb69bd\transformed\profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+95        </provider>
+96
+97        <service
+97-->[androidx.room:room-runtime:2.6.1] C:\Users\LENOVO\.gradle\caches\transforms-3\38e00cca6d3fe4491db56c775b51342a\transformed\room-runtime-2.6.1\AndroidManifest.xml:24:9-28:63
+98            android:name="androidx.room.MultiInstanceInvalidationService"
+98-->[androidx.room:room-runtime:2.6.1] C:\Users\LENOVO\.gradle\caches\transforms-3\38e00cca6d3fe4491db56c775b51342a\transformed\room-runtime-2.6.1\AndroidManifest.xml:25:13-74
+99            android:directBootAware="true"
+99-->[androidx.room:room-runtime:2.6.1] C:\Users\LENOVO\.gradle\caches\transforms-3\38e00cca6d3fe4491db56c775b51342a\transformed\room-runtime-2.6.1\AndroidManifest.xml:26:13-43
+100            android:exported="false" />
+100-->[androidx.room:room-runtime:2.6.1] C:\Users\LENOVO\.gradle\caches\transforms-3\38e00cca6d3fe4491db56c775b51342a\transformed\room-runtime-2.6.1\AndroidManifest.xml:27:13-37
+101
+102        <receiver
+102-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\LENOVO\.gradle\caches\transforms-3\6040b010d93caf97c9ee8226bdfb69bd\transformed\profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+103            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+103-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\LENOVO\.gradle\caches\transforms-3\6040b010d93caf97c9ee8226bdfb69bd\transformed\profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+104            android:directBootAware="false"
+104-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\LENOVO\.gradle\caches\transforms-3\6040b010d93caf97c9ee8226bdfb69bd\transformed\profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+105            android:enabled="true"
+105-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\LENOVO\.gradle\caches\transforms-3\6040b010d93caf97c9ee8226bdfb69bd\transformed\profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+106            android:exported="true"
+106-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\LENOVO\.gradle\caches\transforms-3\6040b010d93caf97c9ee8226bdfb69bd\transformed\profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+107            android:permission="android.permission.DUMP" >
+107-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\LENOVO\.gradle\caches\transforms-3\6040b010d93caf97c9ee8226bdfb69bd\transformed\profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+108            <intent-filter>
+108-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\LENOVO\.gradle\caches\transforms-3\6040b010d93caf97c9ee8226bdfb69bd\transformed\profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+109                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+109-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\LENOVO\.gradle\caches\transforms-3\6040b010d93caf97c9ee8226bdfb69bd\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+109-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\LENOVO\.gradle\caches\transforms-3\6040b010d93caf97c9ee8226bdfb69bd\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+110            </intent-filter>
+111            <intent-filter>
+111-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\LENOVO\.gradle\caches\transforms-3\6040b010d93caf97c9ee8226bdfb69bd\transformed\profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+112                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+112-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\LENOVO\.gradle\caches\transforms-3\6040b010d93caf97c9ee8226bdfb69bd\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+112-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\LENOVO\.gradle\caches\transforms-3\6040b010d93caf97c9ee8226bdfb69bd\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+113            </intent-filter>
+114            <intent-filter>
+114-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\LENOVO\.gradle\caches\transforms-3\6040b010d93caf97c9ee8226bdfb69bd\transformed\profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+115                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+115-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\LENOVO\.gradle\caches\transforms-3\6040b010d93caf97c9ee8226bdfb69bd\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+115-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\LENOVO\.gradle\caches\transforms-3\6040b010d93caf97c9ee8226bdfb69bd\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+116            </intent-filter>
+117            <intent-filter>
+117-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\LENOVO\.gradle\caches\transforms-3\6040b010d93caf97c9ee8226bdfb69bd\transformed\profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+118                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+118-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\LENOVO\.gradle\caches\transforms-3\6040b010d93caf97c9ee8226bdfb69bd\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+118-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\LENOVO\.gradle\caches\transforms-3\6040b010d93caf97c9ee8226bdfb69bd\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
+119            </intent-filter>
+120        </receiver>
+121    </application>
+122
+123</manifest>

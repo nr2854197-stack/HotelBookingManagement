@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="accent">#F2A65A</color>
+    <color name="background">#F7F7F7</color>
+    <color name="black">#000000</color>
+    <color name="card_background">#FFFFFF</color>
+    <color name="ic_launcher_background">#1E6F5C</color>
+    <color name="primary">#1E6F5C</color>
+    <color name="primary_dark">#154C3F</color>
+    <color name="text_primary">#212121</color>
+    <color name="text_secondary">#757575</color>
+    <color name="white">#FFFFFF</color>
+    <string name="app_name">LocalStay</string>
+    <style name="Theme.LocalStay" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <item name="colorAccent">@color/accent</item>
+        <item name="android:windowBackground">@color/background</item>
+        <item name="android:textColorPrimary">@color/text_primary</item>
+        <item name="android:textColorSecondary">@color/text_secondary</item>
+        <item name="android:editTextColor">@color/text_primary</item>
+        <item name="android:textColorHint">@color/text_secondary</item>
+    </style>
+</resources>
